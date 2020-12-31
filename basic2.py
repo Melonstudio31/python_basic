@@ -239,8 +239,4 @@ def quiz_2():
 if __name__ == "__main__":
     #ex_3()              # ex_1 ~ ex_10
     #quiz_2()            # quiz_1 ~ quiz_2
-<<<<<<< HEAD
     #pass                # pass는 지우고 실행
-=======
-    pass                 # pass는 지우고 실행
->>>>>>> 4ca1ddf2cb92526a650118e06e0ba8506525cef2
