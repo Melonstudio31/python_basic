@@ -9,8 +9,13 @@ def ex_2():
     print(type('Hello!'))
     print(type(True))
 
+#
+def ex_3():
+    pass
 
-
+#
+def ex_4():
+    pass
 
 if __name__ == "__main__":
     ex_1()
