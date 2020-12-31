@@ -171,10 +171,10 @@ def ex_14():
 def ex_15():
     print("백문이\n불여일견")        # \n 줄바꿈
     print("저는 \"사람\"입니다.")    # \ 따옴표를 출력
-    print("\\")                    # \\ 역슬래시 출력
-    print("Red Apple\rPine")      # \r 캐리지 리턴 -> 커서를 맨 앞으로 이동 덮어쓰기 (Mac / Window에 따라 차이 있을 수 있음)
-    print("Redd\bApple")          # \b 백스페이스 -> 한 글자 삭제
-    print("Rde\tApple")           # \t 탭 -> 탭과 동일한 효과
+    print("\\")                     # \\ 역슬래시 출력
+    print("Red Apple\rPine")        # \r 캐리지 리턴 -> 커서를 맨 앞으로 이동 덮어쓰기 (Mac / Window에 따라 차이 있을 수 있음)
+    print("Redd\bApple")            # \b 백스페이스 -> 한 글자 삭제
+    print("Rde\tApple")             # \t 탭 -> 탭과 동일한 효과
 
 # quiz_3
 def quiz_3():
