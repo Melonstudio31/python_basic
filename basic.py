@@ -104,7 +104,7 @@ def ex_10():
     print(int(random() * 10))    # [0, 10) 사이의 임의의 값 생성 (int)
 
     print(randrange(1, 10))      # [1, 10) 사이의 임의의 값 생성 (int)
-    print(randint(1, 2))         # [1, 10] 사이의 임의의 값 생성 (int)
+    print(randint(1, 10))         # [1, 10] 사이의 임의의 값 생성 (int)
 
 # quiz_2
 def quiz_2():
@@ -189,4 +189,4 @@ def quiz_3():
 if __name__ == "__main__":
     # ex_15()             # ex_1 ~ ex_15
     # quiz_3()            # quiz_1 ~ quiz_3
-    pass                  # pass는 지우고 실행
+    #pass                 # pass는 지우고 실행

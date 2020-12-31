@@ -88,6 +88,9 @@ def ex_3():
     print(menu[0])
     print(menu[1])
 
+    (camera, notebook, ipad) = (1000, 1500, 700)    # tuple은 이런 형태로 값을 저장하는데 사용
+    print(camera + notebook + ipad)
+
     print(menu.index('돈까스'))      # tuple.index(value)를 통해 index를 구할 수 있음
     print(menu.count('치즈까스'))     # tuple.count(value)를 통해 value의 개수를 구할 수 있음
 
@@ -210,7 +213,7 @@ def ex_10():
     print(students)
 
     students = ['Iron man', 'Thor', 'I am groot']
-    students = [len(i)for i in students]
+    students = [len(i) for i in students]
     print(students)
 
     students = ['Iron man', 'Thor', 'I am groot']
@@ -234,6 +237,6 @@ def quiz_2():
 
 # execute example
 if __name__ == "__main__":
-    #ex_10()             # ex_1 ~ ex_10
+    #ex_3()              # ex_1 ~ ex_10
     #quiz_2()            # quiz_1 ~ quiz_2
-    pass                  # pass는 지우고 실행
+    #pass                # pass는 지우고 실행
